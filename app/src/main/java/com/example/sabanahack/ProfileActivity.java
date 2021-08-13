@@ -28,6 +28,8 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
     private TextView email;
     private TextView id;
     private Button signoutBtn;
+    private Button button;
+    private Button button3;
 
     private GoogleApiClient googleApiClient;
     private GoogleSignInOptions gso;
@@ -37,6 +39,21 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openregister();
+            }
+        });
+
+        button3 = (Button) findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openFAQ();
+            }
+        });
 
         profile_image = findViewById(R.id.profile_image);
         name = findViewById(R.id.name);
@@ -63,6 +80,11 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
         });
     }
 
+    private void openregister(){
+    Intent intent = new Intent(this, register.class);
+    startActivity(intent);
+
+    }
     private void gotoMainActivity() {
         startActivity(new Intent(ProfileActivity.this, MainActivity.class));
         finish();
@@ -86,7 +108,11 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
             gotoMainActivity();
         }
     }
+    private void openFAQ(){
+        Intent intent = new Intent(this, FAQ.class);
+        startActivity(intent);
 
+    }
     @Override
     protected void onStart() {
         super.onStart();

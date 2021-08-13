@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".register">
+
+    <EditText
+        android:id="@+id/nacimiento"
+        android:layout_width="124dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="274dp"
+        android:backgroundTint="#090909"
+        android:ems="10"
+        android:hint="DD/MM/YY"
+        android:inputType="date"
+        android:textColor="#000000"
+        android:textColorHint="#CCCCCC" />
+
+    <EditText
+        android:id="@+id/telef"
+        android:layout_width="184dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="(+57)XXX-XXX-XXXX"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textColorHint="#CCCCCC" />
+
+    <EditText
+        android:id="@+id/Tarjeta"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="203dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="N# de Identificacion"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#CCCCCC" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="21dp"
+        android:text="F"
+        android:textColor="#000000" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginBottom="19dp"
+        android:text="M"
+        android:textColor="#000000" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="20dp"
+        android:text="Otro"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="29dp"
+        android:text="Generar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="83dp"
+        android:text="Seleccione su genero"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/Eps"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="255dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="EJ COMPENSAR"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#CCCCCC" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="91dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="379dp"
+        android:text="Telefono"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="254dp"
+        android:text="EPS"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="318dp"
+        android:text="Fecha nacimiento"
+        android:textColor="#000000" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="466dp"
+        android:backgroundTint="#E91E63"
+        android:entries="@array/identificacion"
+        android:foregroundTint="#000000"
+        android:minHeight="48dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="91dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="116dp"
+        android:text="Dirreccion"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/dirrec"
+        android:layout_width="221dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="113dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="EJ: calle 100#5-28, Bogota"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#CCCCCC" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="195dp"
+        android:text="Numero Carnet EPS"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/identidad"
+        android:layout_width="193dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="187dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="EJ: 1101144241"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#CCCCCC" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="394dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/vos1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="159dp"
+        android:textColor="#000000"
+        android:text="Nombre " />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Nombre"
+        android:textColor="#000000"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#CCCCCC" />
+
+</RelativeLayout>

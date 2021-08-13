@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:foregroundTint="#000000"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="23dp"
+        android:minHeight="48dp"
+        android:text="¿Ha tenido fiebre o temperatura mayor a 38 grados en los ultimos 3 dias?" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="76dp"
+        android:minHeight="48dp"
+        android:text="¿Ha tenidos tos en los ultimos dias?" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="127dp"
+        android:minHeight="48dp"
+        android:text="¿Le ha dolido el pecho recientemente?" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="179dp"
+        android:textColor="#000000"
+        android:minHeight="48dp"
+        android:text="¿Ha sentido dolor de garganta o ha tenido secrecion nasal en los ultimos dias?" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="231dp"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:text="¿Le ha faltado el aire o ha tenido dificultad para respirar?" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="285dp"
+        android:backgroundTint="#000000"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:text="¿Se ha sentido ultimamente mas fatigado de lo normal?" />
+
+    <Switch
+        android:id="@+id/switch7"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="338dp"
+        android:backgroundTint="#000000"
+        android:minHeight="48dp"
+        android:text="¿Ha notado disminucion del olfato o del sabor de los alimentos?"
+        android:textColor="#000000" />
+
+    <Switch
+        android:id="@+id/switch8"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="392dp"
+        android:minHeight="48dp"
+        android:text="¿Ha presentado dolor abdominal, nauseas, vomito o diarrea ultimamente?"
+        android:textColor="#000000" />
+
+    <Switch
+        android:id="@+id/switch9"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="444dp"
+        android:minHeight="48dp"
+        android:text="¿Ha tenido dolores musculares o articulares recientemente?"
+        android:textColor="#000000" />
+
+    <Switch
+        android:id="@+id/switch10"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="499dp"
+        android:minHeight="48dp"
+        android:text="¿Ha estado en contacto con alguien diagosticado o sospechoso de COVID-19?"
+        android:textColor="#000000" />
+
+    <Switch
+        android:id="@+id/switch11"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="552dp"
+        android:minHeight="48dp"
+        android:text="¿Tiene en este momento alguna otra razon fisca que le impida hacer ejercicio?"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="56dp"
+        android:text="Siguiente" />
+
+
+</RelativeLayout>

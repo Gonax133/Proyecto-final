@@ -3,8 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_carnet.xml" value="0.33" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_confirmacion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_diacita.xml" value="0.2905405405405405" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_faq.xml" value="0.25" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_generar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_lista.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_main.xml" value="0.2346014492753623" />
-        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_profile.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/carnet.xml" value="0.25" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/drop.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/drops.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/lays.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/gonax/AndroidStudioProjects/Sabanahack/app/src/main/res/layout/select.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
@@ -13,5 +25,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>
